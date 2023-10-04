@@ -12,8 +12,8 @@
 - `answer.html`: 回答表示画面
 
 - `css/`
+  - `reset.css`: デフォルトで指定されているCSSをリセットするスタイルシート
   - `main.css`: プロジェクトのメインスタイルシート
   - `loading.css`: ローディング画面のスタイルシート
-
 - `js/`: JavaScriptファイルを格納するディレクトリ
   - `IdeaLab.js`: プロジェクトのJavaScriptコード
