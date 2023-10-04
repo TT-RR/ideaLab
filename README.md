@@ -3,38 +3,6 @@
 レコチョクのハッカソンインターンで作成したwebアプリのフロントエンドソースコード。
 
 ## ファイル構成
-/
-
-|-- index.html
-
-|-- select.html
-
-|-- select-two.html
-
-|-- select-three.html
-
-|-- loading.html
-
-|-- answer.html
-
-|-- css/
-
-| |-- reset.css
-
-| |-- main.css
-
-| |-- loading.css
-
-|-- js/
-
-| |-- IdeaLab.js
-
-|-- img/
-
-| |-- 色々
-
-|-- README.md
-
 
 - `index.html`: プロジェクトのメインHTMLファイル
 - `select.html`: アイデアパーツ１つ目選択画面
