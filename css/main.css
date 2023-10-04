@@ -113,15 +113,32 @@ footer p {
   justify-content: center;
 }
 
-/* スキルカードを3等分する */
-.idea-item-1 {
+.idea-list h2 {
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+
+/* 共通のデザイン */
+.card {
   height: 150px;
   width: 260px;
-  background-color: #fff;
-  border-radius: 16px;
+  pointer-events: auto;
+  border-radius: 13px;
   margin: 0 10px 20px 10px;
   padding: 30px;
   box-sizing: border-box;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.45);
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  transition: all .5s;
+  box-shadow: 0px 3px 8px #333;
+}
+
+/* スキルカードを3等分する */
+.idea-item-1 {
+  background-color: #fff;
 }
 
 .idea-item-1 h2 {
@@ -129,23 +146,11 @@ footer p {
 }
 
 .idea-item-2 {
-  height: 150px;
-  width: 260px;
   background-color: #35AF90;
-  border-radius: 16px;
-  margin: 0 10px 20px 10px;
-  padding: 30px;
-  box-sizing: border-box;
 }
 
 .idea-item-3 {
-  height: 150px;
-  width: 260px;
   background-color: #000;
-  border-radius: 16px;
-  margin: 0 10px 20px 10px;
-  padding: 30px;
-  box-sizing: border-box;
 }
 
 .idea-item h2 {
@@ -163,6 +168,7 @@ footer p {
 
 .select p {
   padding-top: 8px;
+  color: #fff;
 }
 
 .select-true {
@@ -186,16 +192,16 @@ footer p {
 }
 
 .select-idea-item {
-  height: 150px;
   width: 350px;
-  /* widthが100%を超えたら折り返す */
   background-color: #35AF90;
-  border-radius: 16px;
+  color: #fff;
   font-size: 20px;
-  margin: 0 0 20px 20px;
-  padding: 30px;
-  box-sizing: border-box;
   overflow-wrap: break-word;
+}
+
+.input-idea {
+  display: flex;
+  padding: 10px 0 0 50px;
 }
 
 .ansButton p {
@@ -275,6 +281,7 @@ footer p {
   background-color: #35AF90;
 }
 
+/* ------ answer.html(スライドショー) ------ */
 .slider {
   /*横幅94%で左右に余白を持たせて中央寄せ*/
   width: 80%;
