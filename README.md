@@ -16,5 +16,6 @@
   - `main.css`: プロジェクトのメインスタイルシート
   - `index.css`: index.htmlのスタイルシート
   - `loading.css`: ローディング画面のスタイルシート
+  - `answer.css`: answer.htmlのスタイルシート
 - `js/`: JavaScriptファイルを格納するディレクトリ
   - `IdeaLab.js`: プロジェクトのJavaScriptコード
