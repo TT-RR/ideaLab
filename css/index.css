@@ -1,23 +1,3 @@
-.start {
-    background: #FFF;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 9000;
-}
-
-.start p {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-    z-index: 9999;
-    width: 280px;
-}
-
 .search {
     display: flex;
     justify-content: center;
@@ -56,10 +36,13 @@
 .item-study {
     background-image: url(../images/study.jpg);
     color: #000;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .item-study h2 {
-    margin-top: 35px;
+    transform: rotate(-6deg);
 }
 
 .item-pe {
@@ -75,27 +58,30 @@
     color: #000;
 }
 
-.item-health p {
-    font-size: 25px;
-    padding-right: 10px;
+.item-health h2 {
+    padding: 0 30px 0 0;
 }
 
 .item-cook {
     background-image: url(../images/cook.jpg);
     color: black;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .item-cook h2 {
-    padding: 30px 0 0 100px;
+    padding: 35px 30px 0 0;
 }
 
 .item-work {
     background-image: url(../images/work.jpg);
     color: #fff;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .item-work h2 {
-    margin-right: 80px;
+    padding-left: 20px;
     font-size: 20px;
 }
 
@@ -105,6 +91,9 @@
 
 .item-travel {
     background-image: url(../images/beach.jpg);
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
 }
 
 /* スキルカードを3等分する */
