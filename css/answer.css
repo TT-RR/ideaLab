@@ -1,0 +1,110 @@
+.ans-list {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.ans-list p {
+    padding-top: 8px;
+    overflow-wrap: break-word;
+}
+
+.ans-item {
+    width: 360px;
+    height: 420px;
+    flex-shrink: 0;
+    margin: 0 10px 20px 10px;
+    padding: 20px 0 0 20px;
+    border-radius: 1rem;
+    background-color: #FFF;
+    list-style: none;
+}
+
+.ans-title {
+    width: 340px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background-color: #35AF90;
+}
+
+.ans-description {
+    margin-top: 10px;
+    width: 340px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background-color: #35AF90;
+}
+
+/* ------ answer.html(スライドショー) ------ */
+.slider {
+    /*横幅94%で左右に余白を持たせて中央寄せ*/
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slider .slick-slide {
+    transform: scale(0.8);
+    transition: all .5s;
+    opacity: 0.5;
+}
+
+.slider .slick-slide.slick-center {
+    transform: scale(1);
+    /*中央だけ等倍に*/
+    opacity: 1;
+}
+
+
+/*矢印の設定*/
+/*戻る、次へ矢印の位置*/
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top: 42%;
+    cursor: pointer;
+    outline: none;
+    border-top: 2px solid #666;
+    border-right: 2px solid #666;
+    height: 15px;
+    width: 15px;
+}
+
+.slick-prev {
+    left: -1.5%;
+    transform: rotate(-135deg);
+}
+
+.slick-next {
+    right: -1.5%;
+    transform: rotate(45deg);
+}
+
+/*ドットナビゲーションの設定*/
+
+.slick-dots {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* ドットボタンの設定 */
+.slick-dots button {
+    color: transparent;
+    outline: none;
+    width: 8px;
+    height: 10px;
+    display: block;
+    border-radius: 50%;
+    background: #ccc;
+    /*ドットボタンの色*/
+}
+
+.slick-dots .slick-active button {
+    background: #333;
+    /*ドットボタンの現在地表示の色*/
+}
