@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex" />
+    <meta name="robots" content="noindex">
     <title>idea lab</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="icon" href="images/logo.png">
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- ホームアイコン -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 </head>
 <body>
     <!-- ここからヘッダー -->
     <header>
-        <img src="images/logo.png">
+        <img src="images/logo.png" alt="">
         <div class="header-content">
             <h1>Idea Lab</h1>
             <h3>~AIで新たなアイデアを製造!~</h3>
@@ -75,12 +76,10 @@
                 <h2>好きなキーワード</h2>
                 <div class="input-idea">
                     <input type="text" value="">
-                    <button type="submit" class="send-gpt-btn">
-                        <a href="select-two.html">
-                            <span class="material-symbols-outlined">
-                                library_add
-                            </span>
-                        </a>
+                    <button type="button" onclick="location.href='./select-three.html'" class="button">
+                        <span class="material-symbols-outlined">
+                            library_add
+                        </span>
                     </button>
                 </div>
             </div>

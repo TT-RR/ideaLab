@@ -43,8 +43,8 @@ header h1 {
 }
 
 header img {
-  position: sticky;
-  left: 400px;
+  position: relative;
+  left: 380px;
 }
 
 .header-content {
@@ -55,7 +55,7 @@ header img {
 }
 
 .material-symbols-outlined {
-  margin: 0 0 2px 10px;
+  color: #fff;
   font-variation-settings: "FILL" 0, "wght" 600, "GRAD" 0, "opsz" 48;
 }
 
@@ -102,17 +102,28 @@ footer p {
   border-radius: 10rem;
 }
 
-.send-gpt-btn {
+/* ボタン共通のデザイン */
+.button {
+  background-color: #35AF90;
   border: none;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
-  background: #35AF90;
-  border-radius: 10px;
+  cursor: pointer;
 
   &:hover {
     opacity: 0.7;
   }
+}
+
+.gpt-svg {
+  width: 30px;
+  height: 40px;
+}
+
+.send-gpt-btn {
+  border-radius: 10px;
+  position: relative;
+  right: 55px;
 }
 
 .text {
@@ -299,11 +310,11 @@ footer p {
   margin: 10px 0 20px 50px;
 }
 
-.idea-textarea .button {
+.idea-textarea .ansButton {
   text-align: center;
 }
 
-.idea-textarea .button input {
+.idea-textarea .ansButton input {
   border: none;
   width: 340px;
   height: 50px;
@@ -314,7 +325,7 @@ footer p {
   font-size: 20px;
 }
 
-.idea-textarea .button input:hover {
+.idea-textarea .ansButton input:hover {
   background: #fff;
   color: #24292e;
 }
