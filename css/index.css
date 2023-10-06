@@ -1,4 +1,8 @@
 .search {
+    margin: 60px 0 60px 0;
+}
+
+.input {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,8 +39,37 @@
 }
 
 .text-border {
+    text-align: center;
     padding: 1rem 0;
     border-top: 1.5px solid #726f6f;
+}
+
+.accordion {
+    text-align: center;
+}
+
+label {
+    color: #000;
+    font-size: 15px;
+    line-height: normal;
+}
+
+.click {
+    display: none;
+}
+
+.change {
+    visibility: hidden;
+}
+
+.change a {
+    height: 0;
+    transition: all 0.5s;
+}
+
+.click:checked+.change {
+    height: 350px;
+    visibility: visible;
 }
 
 /* 個別のデザイン */

@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f8fdc5;
+  text-align: center;
 }
 
 img {
@@ -82,7 +83,6 @@ footer p {
 
 .text {
   margin: 20px 0 10px 0;
-  text-align: center;
 }
 
 /* ボタン共通のデザイン */
@@ -182,6 +182,10 @@ footer p {
 .input-idea {
   display: flex;
   padding: 10px 0 0 50px;
+}
+
+.text_change_size {
+  font-size: 1rem;
 }
 
 /* ------ レスポンシブデザイン(スマホ用) ------ */
