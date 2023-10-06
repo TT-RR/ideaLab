@@ -1,12 +1,16 @@
-$(function () {
+// テキストのフェードイン
+document.addEventListener("DOMContentLoaded", function () {
+    const textElement = document.querySelector(".fade-in");
+
+    // ページが読み込まれた後、一定の遅延を持ってテキストをフェードインさせる
     setTimeout(function () {
-        $('.start p').fadeIn(1600);
-    }, 500); //0.5秒後にロゴをフェードイン!
-    setTimeout(function () {
-        $('.start').fadeOut(500);
-    }, 2500); //2.5秒後にロゴ含め真っ白背景をフェードアウト！
+        textElement.style.opacity = "1";
+        textElement.style.transform = "translateY(0)";
+    }, 500); // 500ミリ秒（0.5秒）の遅延
+
 });
 
+// スライドショー
 $('.slider').slick({
     autoplay: true,//自動で動く
     infinite: true,//スライドをループさせる

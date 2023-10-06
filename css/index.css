@@ -26,10 +26,17 @@
     right: 55px;
 }
 
+.fade-in {
+    position: relative;
+    /* テキストを下に隠す */
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s, transform 1s;
+}
+
 .text-border {
     padding: 1rem 0;
     border-top: 1.5px solid #726f6f;
-    font-weight: bold;
 }
 
 /* 個別のデザイン */
