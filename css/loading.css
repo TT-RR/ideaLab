@@ -39,3 +39,15 @@ footer {
     padding: 10px;
     color: #fff;
 }
+
+/* ------ レスポンシブデザイン(スマホ用) ------ */
+@media screen and (max-width: 414px) {
+    p {
+        font-size: 20px;
+    }
+
+    .loader img {
+        width: 70px;
+        height: 70px;
+    }
+}

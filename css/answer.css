@@ -29,6 +29,7 @@
     border-radius: 1rem;
     background-color: #FFF;
     list-style: none;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.45);
 }
 
 .ans-item p {
@@ -41,6 +42,7 @@
     flex-shrink: 0;
     border-radius: 1rem;
     background-color: #35AF90;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.45);
 }
 
 .ans-description {
@@ -50,6 +52,7 @@
     flex-shrink: 0;
     border-radius: 1rem;
     background-color: #35AF90;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.45);
 }
 
 /* ------ answer.html(スライドショー) ------ */
@@ -117,10 +120,33 @@
     display: block;
     border-radius: 50%;
     background: #ccc;
-    /*ドットボタンの色*/
 }
 
 .slick-dots .slick-active button {
     background: #333;
     /*ドットボタンの現在地表示の色*/
+}
+
+/* ------ レスポンシブデザイン(スマホ用) ------ */
+@media screen and (max-width: 414px) {
+    .ans-item {
+        width: 250px;
+        height: 400px;
+        padding-left: auto;
+    }
+
+    .ans-title {
+        width: 230px;
+        height: 70px;
+    }
+
+    .ans-description {
+        width: 230px;
+        height: 300px;
+    }
+
+    .slick-dots button {
+        width: 4px;
+        height: 10px;
+    }
 }

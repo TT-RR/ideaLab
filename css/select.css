@@ -1,19 +1,16 @@
 .idea-textarea {
     width: 70%;
+    text-align: center;
     margin: 0 auto;
 }
 
-.idea-textarea textarea {
+textarea {
     width: 800px;
     height: 250px;
-    margin: 10px 0 20px 50px;
+    margin-bottom: 10px;
 }
 
-.idea-textarea {
-    text-align: center;
-}
-
-.idea-textarea .ansButton input {
+.ansButton input {
     border: none;
     width: 340px;
     height: 50px;
@@ -21,12 +18,31 @@
     border-radius: 50px;
     background-color: #35AF90;
     color: #fff;
-    font-size: 20px;
+    font-size: 1.4rem;
     font-family: 'DotGothic16', sans-serif;
 }
 
-.idea-textarea .ansButton input:hover {
+.ansButton input:hover {
     transition: all .5s;
     box-shadow: 0px 3px 8px #333;
     transform: scale(1.1);
+}
+
+/* ------ レスポンシブデザイン(スマホ用) ------ */
+@media screen and (max-width: 414px) {
+    .idea-textarea {
+        width: 70%;
+    }
+
+    textarea {
+        margin: 10px auto;
+        width: 300px;
+        height: 160px;
+    }
+
+    .ansButton input {
+        width: 200px;
+        height: 40px;
+        font-size: 1.1rem;
+    }
 }

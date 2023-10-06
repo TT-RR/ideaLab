@@ -71,6 +71,10 @@ header img {
   font-variation-settings: "FILL" 0, "wght" 600, "GRAD" 0, "opsz" 48;
 }
 
+footer {
+  margin-top: 10px;
+}
+
 footer p {
   font-size: 11px;
   text-align: right;
@@ -104,7 +108,7 @@ footer p {
 }
 
 .idea-list h2 {
-  padding-top: 20px;
+  margin-top: 20px;
   font-size: 1.8rem;
 }
 
@@ -140,7 +144,7 @@ footer p {
 
 .select-true {
   width: 142px;
-  height: 42px;
+  height: 45px;
   flex-shrink: 0;
   border-radius: 10px;
   background: #35AF90;
@@ -151,7 +155,7 @@ footer p {
 
 .select-false {
   width: 142px;
-  height: 42px;
+  height: 45px;
   flex-shrink: 0;
   border-radius: 10px;
   background: #FFF;
@@ -178,4 +182,78 @@ footer p {
 .input-idea {
   display: flex;
   padding: 10px 0 0 50px;
+}
+
+/* ------ レスポンシブデザイン(スマホ用) ------ */
+@media screen and (max-width: 414px) {
+  p {
+    font-size: 0.8rem;
+  }
+
+  header h1 {
+    font-size: 27px;
+  }
+
+  header h3 {
+    font-size: 13px;
+  }
+
+  header img {
+    position: relative;
+    left: -5%;
+  }
+
+  .header-content {
+    margin-right: 20px;
+  }
+
+  footer p {
+    font-size: 6px;
+  }
+
+  .card {
+    height: 130px;
+    width: 250px;
+  }
+
+  .select {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 190px;
+  }
+
+  .select-true {
+    width: 210px;
+  }
+
+  .select-true p {
+    font-size: 1.2rem;
+  }
+
+  .select-false {
+    width: 210px;
+  }
+
+  .select-false p {
+    font-size: 1.2rem;
+  }
+
+  .select-idea-item {
+    height: 100px;
+  }
+
+  .select-idea-item h2 {
+    margin-top: 0px;
+    font-size: 1.8rem;
+  }
+
+  .select-idea-item h3 {
+    margin-top: 0px;
+    font-size: 1.2rem;
+  }
+
+  .input-idea {
+    padding-left: 0;
+  }
 }

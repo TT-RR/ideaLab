@@ -123,3 +123,23 @@
 .idea-item h2 {
     text-align: center;
 }
+
+/* ------ レスポンシブデザイン(スマホ用) ------ */
+@media screen and (max-width: 414px) {
+    .ki-input {
+        width: 350px;
+        height: 40px;
+        position: relative;
+        left: 16px;
+    }
+
+    .gpt-svg {
+        width: 20px;
+        height: 30px;
+    }
+
+    .send-gpt-btn {
+        position: relative;
+        right: 25px;
+    }
+}
