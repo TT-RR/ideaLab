@@ -44,7 +44,7 @@ header {
 
 header h1 {
   font-family: 'Press Start 2P', cursive;
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 10px;
 }
 
@@ -55,12 +55,13 @@ header h3 {
 
 header img {
   position: relative;
-  left: 380px;
+  left: 30%;
 }
 
 .header-content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   flex-grow: 1;
 }
@@ -104,7 +105,7 @@ footer p {
 
 .idea-list h2 {
   padding-top: 20px;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .card {
@@ -166,7 +167,12 @@ footer p {
 }
 
 .select-idea-item h2 {
-  font-size: 25px;
+  font-size: 2.3rem;
+}
+
+.select-idea-item h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
 }
 
 .input-idea {
