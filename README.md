@@ -13,7 +13,7 @@
 
 - `css/`
   - `reset.css`: デフォルトで指定されているCSSをリセットするスタイルシート
-  - `main.css`: プロジェクトの共通部分(ヘッダー・フッターなど)スタイルシート
+  - `main.css`: プロジェクトの共通部分(ヘッダー・フッター・select-O.htmlなど)スタイルシート
   - `index.css`: index.htmlのスタイルシート
   - `loading.css`: ローディング画面のスタイルシート
   - `answer.css`: answer.htmlのスタイルシート
