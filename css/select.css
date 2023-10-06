@@ -1,0 +1,32 @@
+.idea-textarea {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.idea-textarea textarea {
+    width: 800px;
+    height: 250px;
+    margin: 10px 0 20px 50px;
+}
+
+.idea-textarea {
+    text-align: center;
+}
+
+.idea-textarea .ansButton input {
+    border: none;
+    width: 340px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background-color: #35AF90;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.idea-textarea .ansButton input:hover {
+    transition: all .5s;
+    box-shadow: 0px 3px 8px #333;
+    transform: scale(1.1);
+}
