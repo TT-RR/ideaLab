@@ -175,4 +175,8 @@ label {
         position: relative;
         right: 25px;
     }
+
+    .click:checked+.change {
+        height: 1150px;
+    }
 }

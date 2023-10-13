@@ -7,12 +7,12 @@ body {
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
-    background-color: #f8fdc5;
+    background-color: #e5e5e5;
 }
 
 .loader {
     text-align: center;
-    background-color: #f8fdc5;
+    background-color: #e5e5e5;
     padding: 20px;
 }
 

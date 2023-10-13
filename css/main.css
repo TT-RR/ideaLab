@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #f8fdc5;
+  background-color: rgb(229, 229, 229);
   text-align: center;
 }
 
@@ -41,6 +41,7 @@ header {
   height: 130px;
   padding: 0 4%;
   align-items: center;
+  box-shadow: 2px 0 6px 0px rgba(0, 0, 0, 0.45);
 }
 
 header h1 {
@@ -83,6 +84,10 @@ footer p {
 
 .text {
   margin: 20px 0 10px 0;
+}
+
+.text_change_size {
+  font-size: 16px;
 }
 
 /* ボタン共通のデザイン */
@@ -184,13 +189,17 @@ footer p {
   padding: 10px 0 0 50px;
 }
 
-.text_change_size {
-  font-size: 1rem;
-}
+
 
 /* ------ レスポンシブデザイン(スマホ用) ------ */
 @media screen and (max-width: 414px) {
-  p {
+  .text {
+    width: 310px;
+    margin: 20px auto 10px auto;
+    font-size: 0.8rem;
+  }
+
+  .text_change_size {
     font-size: 0.8rem;
   }
 
