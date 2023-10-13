@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(229, 229, 229);
+}
+
+.error-message {
+    text-align: center;
+    font-size: 24px;
+}
+
+.error-message p {
+    margin-bottom: 20px;
+}
+
+.big {
+    font-size: 40px;
+}
+
+.retry-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #35AF90;
+    ;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
