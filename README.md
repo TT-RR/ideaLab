@@ -10,6 +10,7 @@
 - `select-three.html`: アイデアパーツ３つ目入力画面
 - `loading.html`: ローディング画面
 - `answer.html`: 回答表示画面
+- `error.html`: APIとの通信でエラーが発生した場合、表示する画面
 
 - `css/`
   - `reset.css`: デフォルトで指定されているCSSをリセットするスタイルシート
@@ -18,5 +19,6 @@
   - `select.css`: select-three.htmlのスタイルシート
   - `loading.css`: ローディング画面のスタイルシート
   - `answer.css`: answer.htmlのスタイルシート
+  - `error.css`: error.htmlのスタイルシート
 - `js/`: JavaScriptファイルを格納するディレクトリ
   - `IdeaLab.js`: プロジェクトのJavaScriptコード
